@@ -63,7 +63,7 @@ async def echo_friend(message: Message, state: FSMContext):
     chosen_friend = user_data.get("chosen_friend")
 
     if chosen_friend == "осётр":
-        await message.answer_sticker(sticker="CAACAgIAAxkBAAEL6bZmD3w7AAG_T998RWWg9gqAAf_8AAO6EAAC7v7pSInY6b7pLz7-NAQ")
+        await message.answer_sticker(sticker="CAACAgIAAxkBAAEILnxq8HPXg616RnUZJKh5L2oW8n1gHQACxH8AAvIAAblJHSv85qCxZmA9BA")
     elif chosen_friend == "диня":
         await message.answer("я ебал твою мать. я все сказал")
     elif chosen_friend == "димка":
